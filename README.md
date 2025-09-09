@@ -83,4 +83,3 @@ git clone https://github.com/Gauranga025/Intervue.git
 cd Intervue
 
 
-## 🗂️ Project Structure

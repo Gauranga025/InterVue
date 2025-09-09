@@ -26,9 +26,32 @@ It offers high-quality video calls, real-time screen sharing, session recording,
 - 🖥️ **Screen Sharing** – Share IDEs, presentations, or browser tabs
 - 🎬 **Recording** – Save and replay interviews for review
 - 🔒 **Authentication & Authorization** – Secure identity with Clerk
-- 🎨 **UI Styling** – TailwindCSS + Shadcn for modern design
+- 🎨 **UI Styling** – TailwindCSS + Shadcn UI for modern design
 - ⚡ **Server Actions & Routing** – Powered by Next.js App Router
-- 🛠️ **Full-stack Integration** – Convex for backend logic, Stream for video infra
+- 🛠️ **Full-stack Integration** – Convex for backend logic, Stream for video infrastructure
+
+---
+
+## 🖼️ Screenshots
+
+### Candidate Login Page
+![Home Page](./public/LoginAsCandidate.jpg)
+
+### Interviewer Login Page
+![Interview Page](./public/LoginAsInterviewer.jpg)
+
+### Interview Page
+![Dashboard](./public/InterviewPage.jpg)
+
+### Interview Page
+![Dashboard](./public/InterviewPage.jpg)
+
+### Scheduke Interview Page
+![Dashboard](./public/ScheduleInterviewCalender.jpg)
+
+### Recordings Page
+![Dashboard](./public/Recordings.jpg)
+
 
 ---
 
@@ -36,16 +59,3 @@ It offers high-quality video calls, real-time screen sharing, session recording,
 
 ### 1. Clone the Repository
 ```bash
-git clone https://github.com/your-username/intervue.git
-cd intervue
-
-
-### 2. Install Dependencies
-```bash
-npm install
-
-Notes: Convex : debatasarthak1@gmail.com github gauranga025
-clerk: debatasarthak1@gmail.com
-stream: github or debatsarthak1@gmail.com
-
-

@@ -1,7 +1,7 @@
 <h1 align="center">💼 InterVue – Video Interview Platform</h1>
 
 <p align="center">
-  <i>Seamless video calls, screen sharing, and recording for technical interviews.</i><br/>
+  <i>Seamless video calls, collaborative coding, screen sharing, and recording for technical interviews.</i><br/>
   Built with <b>Next.js, TypeScript, Stream, Convex, and Clerk</b>.
 </p>
 
@@ -16,42 +16,62 @@
 ---
 
 ## ✨ Overview
-**InterVue** is a modern platform for conducting **remote technical interviews**.  
-It offers high-quality video calls, real-time screen sharing, session recording, and secure authentication—perfect for hiring teams, mentors, and mock interviews.
+**InterVue** is a modern full-stack platform for conducting **remote technical interviews**.  
+It offers a professional suite of tools including high-quality video calls, a collaborative code editor, real-time screen sharing, session recording, and secure authentication—designed for recruiters, mentors, and candidates.
 
 ---
 
-## 🚀 Features
-- 🎥 **Video Calls** – Smooth and reliable real-time calls
-- 🖥️ **Screen Sharing** – Share IDEs, presentations, or browser tabs
-- 🎬 **Recording** – Save and replay interviews for review
-- 🔒 **Authentication & Authorization** – Secure identity with Clerk
-- 🎨 **UI Styling** – TailwindCSS + Shadcn UI for modern design
-- ⚡ **Server Actions & Routing** – Powered by Next.js App Router
-- 🛠️ **Full-stack Integration** – Convex for backend logic, Stream for video infrastructure
+## 🚀 Key Features
+- 🎥 **Video Calls** – Smooth, real-time video conferencing powered by Stream  
+- 🖥️ **Screen Sharing** – Share IDEs, presentations, or tabs seamlessly  
+- 📝 **Collaborative Code Editor** – Multi-language editor for live coding sessions  
+- 🎬 **Recording & Playback** – Record interviews for later review and feedback  
+- 🔒 **Authentication & Authorization** – Clerk-based secure login with role-based access control (RBAC)  
+- ⚡ **Full-Stack Integration** – Convex backend for scheduling, session management, and secure data handling  
+- 🎨 **UI Styling** – TailwindCSS + Shadcn UI for a modern and responsive interface  
+- 🏢 **Agile Development Ready** – Built with scalability, sprint workflows, and team collaboration in mind  
+
+---
+
+## 🗂️ Project Structure
+├── .next/ # Next.js build output
+├── convex/ # Convex backend logic
+├── node_modules/ # Dependencies
+├── public/ # Static assets (images, screenshots)
+├── src/ # Application source code
+│ └── ... # Pages, components, and utilities
+├── .env.local # Environment variables
+├── .gitignore # Git ignore rules
+├── components.json # UI component config
+├── LICENSE # License information
+├── next-env.d.ts # Next.js TypeScript types
+├── next.config.mjs # Next.js configuration
+├── package.json # Project metadata & dependencies
+├── package-lock.json # Dependency lock file
+├── postcss.config.mjs # PostCSS configuration
+├── tailwind.config.ts # TailwindCSS configuration
+├── tsconfig.json # TypeScript configuration
+└── README.md # Project documentation
+
 
 ---
 
 ## 🖼️ Screenshots
 
 ### Candidate Login Page
-![Home Page](./public/LoginAsCandidate.jpg)
+![Candidate Login](./public/LoginAsCandidate.jpg)
 
 ### Interviewer Login Page
-![Interview Page](./public/LoginAsInterviewer.jpg)
+![Interviewer Login](./public/LoginAsInterviewer.jpg)
 
-### Interview Page
-![Dashboard](./public/InterviewPage.jpg)
+### Interview Session
+![Interview](./public/InterviewPage.jpg)
 
-### Interview Page
-![Dashboard](./public/InterviewPage.jpg)
-
-### Scheduke Interview Page
-![Dashboard](./public/ScheduleInterviewCalender.jpg)
+### Schedule Interview
+![Schedule](./public/ScheduleInterviewCalender.jpg)
 
 ### Recordings Page
-![Dashboard](./public/Recordings.jpg)
-
+![Recordings](./public/Recordings.jpg)
 
 ---
 
@@ -59,3 +79,8 @@ It offers high-quality video calls, real-time screen sharing, session recording,
 
 ### 1. Clone the Repository
 ```bash
+git clone https://github.com/Gauranga025/Intervue.git
+cd Intervue
+
+
+## 🗂️ Project Structure

@@ -2,7 +2,7 @@
   "name": "interVue",
   "version": "0.1.0",
   "private": true,
-  "scripts": {git add package.json package-lock.json
+  "scripts": {
 
     "dev": "next dev",
     "build": "next build",

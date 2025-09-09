@@ -1,8 +1,9 @@
 {
-  "name": "codesync",
+  "name": "interVue",
   "version": "0.1.0",
   "private": true,
-  "scripts": {
+  "scripts": {git add package.json package-lock.json
+
     "dev": "next dev",
     "build": "next build",
     "start": "next start",

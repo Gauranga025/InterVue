@@ -74,6 +74,13 @@ It offers a professional suite of tools including high-quality video calls, a co
 ![Recordings](./public/Recordings.jpg)
 
 ---
+## 📄 Author Information
+
+**Sarthak Debata**  
+GitHub: [https://github.com/Gauranga025](https://github.com/Gauranga025)  
+Email: debatasarthak1@gmail.com  
+
+---
 
 ## 🛠️ Setup & Installation
 

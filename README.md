@@ -31,28 +31,6 @@ It offers a professional suite of tools including high-quality video calls, a co
 - 🎨 **UI Styling** – TailwindCSS + Shadcn UI for a modern and responsive interface  
 - 🏢 **Agile Development Ready** – Built with scalability, sprint workflows, and team collaboration in mind  
 
----
-
-## 🗂️ Project Structure
-├── .next/ # Next.js build output
-├── convex/ # Convex backend logic
-├── node_modules/ # Dependencies
-├── public/ # Static assets (images, screenshots)
-├── src/ # Application source code
-│ └── ... # Pages, components, and utilities
-├── .env.local # Environment variables
-├── .gitignore # Git ignore rules
-├── components.json # UI component config
-├── LICENSE # License information
-├── next-env.d.ts # Next.js TypeScript types
-├── next.config.mjs # Next.js configuration
-├── package.json # Project metadata & dependencies
-├── package-lock.json # Dependency lock file
-├── postcss.config.mjs # PostCSS configuration
-├── tailwind.config.ts # TailwindCSS configuration
-├── tsconfig.json # TypeScript configuration
-└── README.md # Project documentation
-
 
 ---
 
